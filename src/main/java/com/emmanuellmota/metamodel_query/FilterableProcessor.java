@@ -11,7 +11,7 @@ import javax.tools.Diagnostic;
 import com.google.auto.service.AutoService;
 
 @SupportedAnnotationTypes("com.emmanuellmota.metamodel_query.Filterable")
-@SupportedSourceVersion(SourceVersion.RELEASE_17)
+// @SupportedSourceVersion(SourceVersion.RELEASE_11)
 @AutoService(Processor.class)
 public class FilterableProcessor extends AbstractProcessor {
 

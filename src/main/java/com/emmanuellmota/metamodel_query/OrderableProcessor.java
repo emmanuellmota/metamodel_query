@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.Set;
 
 @SupportedAnnotationTypes("com.emmanuellmota.metamodel_query.Orderable")
-@SupportedSourceVersion(SourceVersion.RELEASE_17)
+// @SupportedSourceVersion(SourceVersion.RELEASE_11)
 @AutoService(Processor.class)
 public class OrderableProcessor extends AbstractProcessor {
 
